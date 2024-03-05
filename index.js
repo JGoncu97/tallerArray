@@ -10,3 +10,8 @@ let arrayElementsDiferent=[1,"hola",true,cubo,false]
 //4. Crear un array utilizando el constructor Array():
 const language = new Array("HTML", "CSS", "Javascript"); 
 
+//5. Crear un array con una secuencia numérica usando el método Array.from() :
+const range = (start, stop, step) =>
+  Array.from({ length: (stop - start) / step + 1 }, (_, i) => start + i * step)
+ 
+  
