@@ -104,3 +104,9 @@ const clothing7 = ['jean','shoes', 'shirts', 'socks', 'sweaters']
 const obtener=clothing7.slice(-2)
 console.log(obtener)
 
+//19. Eliminar una porción del array sin modificar el original usando slice() :
+
+const clothing8 = ['jean','shoes', 'shirts', 'socks', 'sweaters']
+const newArray=clothing8.slice(0,2)
+console.log(newArray)
+
