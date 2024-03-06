@@ -62,3 +62,10 @@ const clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
 
 console.log(clothing.length);
 
+//12. Agregar elementos al final del array usando push() :
+
+const clothing1 = ['shoes', 'shirts', 'socks', 'sweaters'];
+
+console.log(clothing1.push("jean"));
+console.log(clothing1)
+
