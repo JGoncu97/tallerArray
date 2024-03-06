@@ -14,4 +14,9 @@ const language = new Array("HTML", "CSS", "Javascript");
 const range = (start, stop, step) =>
   Array.from({ length: (stop - start) / step + 1 }, (_, i) => start + i * step)
  
-  
+  //   6. Crear un array mediante la repetición de un valor utilizando el método 
+// Array.fill() :
+const array = [1, 2, 3, 4];
+
+
+console.log(array.fill(3, 2, 4));
