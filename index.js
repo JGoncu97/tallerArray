@@ -74,3 +74,10 @@ console.log(clothing1)
 const clothing2 = ['shoes', 'shirts', 'socks', 'sweaters','jean']
 clothing2.pop()
 console.log(clothing2)
+
+//14. Agregar elementos al principio del array usando unshift() :
+
+const clothing3 = ['shoes', 'shirts', 'socks', 'sweaters']
+console.log(clothing3.unshift('jean'))
+console.log(clothing3)
+
