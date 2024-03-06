@@ -43,3 +43,16 @@ console.log(arrayCombinado);
 const arrayuni1 = ['apple', 'banana', 'banana', 'orange', 'apple'];
 const uniqueArray = [...new Set(arrayuni1)];
 console.log(uniqueArray); 
+
+//10. Crear un array con una función que genere valores dinámicamente:
+function generateSequenceArray(start, end, step) {
+  const sequenceArray = [];
+  for (let i = start; i <= end; i += step) {
+    sequenceArray.push(i);
+  }
+  return sequenceArray;
+}
+
+const sequence = generateSequenceArray(1, 10, 2);
+console.log(sequence); 
+
