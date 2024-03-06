@@ -69,3 +69,8 @@ const clothing1 = ['shoes', 'shirts', 'socks', 'sweaters'];
 console.log(clothing1.push("jean"));
 console.log(clothing1)
 
+//13. Eliminar el último elemento del array usando pop() :
+
+const clothing2 = ['shoes', 'shirts', 'socks', 'sweaters','jean']
+clothing2.pop()
+console.log(clothing2)
