@@ -110,3 +110,10 @@ const clothing8 = ['jean','shoes', 'shirts', 'socks', 'sweaters']
 const newArray=clothing8.slice(0,2)
 console.log(newArray)
 
+//20. Agregar múltiples elementos al principio del array usando unshift() con
+//spread operator ( ... ):
+
+let arrayNew=[4,5,6,7];
+const elementsToAdd=[1,2,3]
+arrayNew.unshift(...elementsToAdd)
+console.log(arrayNew)
