@@ -93,3 +93,7 @@ const clothing5 = ['jean','shoes', 'shirts', 'socks', 'sweaters']
 const porcion=clothing5.slice(2)
 console.log(porcion)
 
+//17. Convertir un array en un string usando join() :
+
+const clothing6 = ['jean','shoes', 'shirts', 'socks', 'sweaters']
+console.log(clothing6.join('-'))
