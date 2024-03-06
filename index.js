@@ -20,3 +20,11 @@ const array = [1, 2, 3, 4];
 
 
 console.log(array.fill(3, 2, 4));
+
+//7. Crear un array a partir de una cadena de texto usando el método 
+//String.split() :
+
+let familia= "Diego tenia 10 hijos, de los cuales 2 son de 5 años";
+let palabras = familia.split(" ");
+console.log(palabras); 
+
