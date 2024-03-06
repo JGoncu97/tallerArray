@@ -97,3 +97,10 @@ console.log(porcion)
 
 const clothing6 = ['jean','shoes', 'shirts', 'socks', 'sweaters']
 console.log(clothing6.join('-'))
+
+//18. Obtener una subsección del array desde un índice negativo usando slice() :
+
+const clothing7 = ['jean','shoes', 'shirts', 'socks', 'sweaters']
+const obtener=clothing7.slice(-2)
+console.log(obtener)
+
