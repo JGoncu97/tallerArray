@@ -56,3 +56,9 @@ function generateSequenceArray(start, end, step) {
 const sequence = generateSequenceArray(1, 10, 2);
 console.log(sequence); 
 
+//11 .Obtener la longitud de un array
+
+const clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
+
+console.log(clothing.length);
+
