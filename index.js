@@ -42,4 +42,4 @@ console.log(arrayCombinado);
 
 const arrayuni1 = ['apple', 'banana', 'banana', 'orange', 'apple'];
 const uniqueArray = [...new Set(arrayuni1)];
-console.log(uniqueArray); // Output: ['apple', 'banana', 'orange']
+console.log(uniqueArray); 
