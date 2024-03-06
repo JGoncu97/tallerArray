@@ -86,3 +86,10 @@ console.log(clothing3)
 const clothing4 = ['jean','shoes', 'shirts', 'socks', 'sweaters']
 clothing4.shift()
 console.log(clothing4)
+
+//16. Obtener una porción del array usando slice() :
+
+const clothing5 = ['jean','shoes', 'shirts', 'socks', 'sweaters']
+const porcion=clothing5.slice(2)
+console.log(porcion)
+
