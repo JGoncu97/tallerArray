@@ -36,3 +36,10 @@ const array1 = [1, 2, 3];
 const array2 = [4, 5, 6];
 const arrayCombinado = [...array1, ...array2];
 console.log(arrayCombinado); 
+
+//9. Crear un array con valores únicos utilizando el método Set() y el operador
+//spread ( ... ):
+
+const arrayuni1 = ['apple', 'banana', 'banana', 'orange', 'apple'];
+const uniqueArray = [...new Set(arrayuni1)];
+console.log(uniqueArray); // Output: ['apple', 'banana', 'orange']
