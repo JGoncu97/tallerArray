@@ -81,3 +81,8 @@ const clothing3 = ['shoes', 'shirts', 'socks', 'sweaters']
 console.log(clothing3.unshift('jean'))
 console.log(clothing3)
 
+//15. Eliminar el primer elemento del array usando shift() :
+
+const clothing4 = ['jean','shoes', 'shirts', 'socks', 'sweaters']
+clothing4.shift()
+console.log(clothing4)
