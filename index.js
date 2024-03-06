@@ -28,3 +28,11 @@ let familia= "Diego tenia 10 hijos, de los cuales 2 son de 5 años";
 let palabras = familia.split(" ");
 console.log(palabras); 
 
+//8. Crear un array combinando dos arrays existentes utilizando el operador
+//spread ( ... ):
+
+
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+const arrayCombinado = [...array1, ...array2];
+console.log(arrayCombinado); 
