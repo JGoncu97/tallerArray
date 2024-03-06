@@ -5,5 +5,7 @@ let arrayVacio=[]
 let arrayElements=[1,2,3,4,5,6]
 
 //3. Crear un array con elementos de diferentes tipos de datos:
+let cubo="abc"
 let arrayElementsDiferent=[1,"hola",true,cubo,false]
+
 
